@@ -2,8 +2,16 @@ function About(){
     return(
        <div  className="bg-zinc-800 min-h-screen flex flex-col py-40 px-50 " >
         <div className="flex item-center  ">
+
+                           {/* header*/}
+
             <h1 className="text-zinc-300 font-bold  py-10 text-3xl  ">About me</h1>
+
+                          {/* small line */}
+
             <div className="flex-1 h-[2px] bg-zinc-600 "></div>
+
+                          {/* about me */}
         </div>
         <h2 className="text-zinc-400">I’m a Computer Science student passionate about 
             software development and new technologies,</h2>
