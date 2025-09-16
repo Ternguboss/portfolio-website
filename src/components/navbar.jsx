@@ -1,6 +1,6 @@
 function Navbar(){
     return(
-        <nav className="flex justify-between items-center bg-zinc-800 px-8 py-3 shadow-md">
+        <nav className="flex justify-between items-center w-full bg-transparent backdrop-blur-sm fixed top-0 left-0 px-8 py-3 shadow-md z-50">
 
                   {/* logo */}
 
