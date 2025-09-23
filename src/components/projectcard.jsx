@@ -1,6 +1,6 @@
 function Projectcard({category, title, description, image, github, demo}){
     return(
-        <div className="bg-zinc-800 rounded-xl shadow-xl/40 overflow-hidden ">
+        <div  className="bg-zinc-800 rounded-xl shadow-xl/40 overflow-hidden hover:-translate-y-2 hover:shadow-lg hover:bg-zinc-800 ">
 
              {/* Category Label */}
 
@@ -9,7 +9,7 @@ function Projectcard({category, title, description, image, github, demo}){
             
                {/* Screenshot */}
 
-            <img src="" alt={title} className="w-full h-40 object-cover mt-2 " />
+            <img src={image} alt={title} className="w-full h-40 object-cover mt-2 " />
 
                {/* Content */}
             
